@@ -1,3 +1,4 @@
+import Body from "../body/Body";
 import Header from "../Header/Header";
 import NavBar from "../NavBar/NavBar";
 
@@ -6,6 +7,7 @@ export default function PageLayout() {
         <div className="w-full h-screen">
             <NavBar />
             <Header />
+            <Body />
         </div>
     )
 }
