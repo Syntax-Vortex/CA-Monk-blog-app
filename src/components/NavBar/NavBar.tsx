@@ -23,13 +23,12 @@ export default function NavBar(props: any) {
             </div>
             
             <div className="flex justify-center items-center text-[12px] sm:text-[16px] font-semibold text-gray-600 gap-3 ">
-                <Button className="active:bg-black" onClick={handleOpenModal}>Search</Button>
+                <Button className="bg-white border-b-2 border-black/0 hover:border-black hover:bg-white text-black rounded-none duration-200
+                                        cursor-pointer" onClick={handleOpenModal}>Search</Button>
                 <SearchBlog isOpen = {isOpen} handleCloseModal ={handleCloseModal} setSelectedBlog={setSelectedBlog}/>
-
-                <Button className="active:bg-black">Create Blog</Button>
             </div>
             
-            <Button >Profile</Button>
+            <Button className="active:bg-black/50">Profile</Button>
         </div>
     )
 }
