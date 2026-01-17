@@ -6,7 +6,7 @@ export default function PageLayout(props: any) {
 
     return (
         <div className="w-full min-h-screen">
-            <NavBar />
+            <NavBar setSelectedBlog = {setSelectedBlog}/>
 
             <div className="h-screen">
                 <Body selectedBlog = {selectedBlog} setSelectedBlog = {setSelectedBlog}/>
