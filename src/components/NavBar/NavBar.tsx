@@ -2,7 +2,7 @@ import { Button } from "../ui/button";
 
 export default function NavBar() {
     return(
-        <div className="bg-white w-full flex justify-between items-center px-2 sm:px-5 py-2 border-b-2 border-gray-150 text-center fixed">
+        <div className="bg-white w-full flex justify-between items-center px-2 sm:px-5 py-2 border-b-2 border-gray-150 text-center ">
             <div className="text-[14px] sm:text-[22px] text-black font-bold">
                 CA Monk
             </div>
